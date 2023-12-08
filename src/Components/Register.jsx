@@ -86,7 +86,9 @@ if (
             alignItems: 'center',
             justifyContent: 'center',
             flexDirection: 'column',
-            margin:'10px'
+            margin:'10px',
+            border:"none",
+            borderRadius: '10px',   
         }}>
             <h3>Registration Form</h3>
             <form onSubmit={handleSubmit}>
