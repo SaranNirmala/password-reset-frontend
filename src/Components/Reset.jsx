@@ -65,7 +65,7 @@ const Reset = () =>{
     }
     }
 
-  console.log(resetPassword);
+
     if(resetPassword === true){
         return <Navigate to={'/login'} replace/>
       }

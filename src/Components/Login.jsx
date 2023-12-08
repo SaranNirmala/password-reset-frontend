@@ -15,7 +15,6 @@ const Login = () =>{
     });
 
      const [loggedIn, setLoggedIn] = useState(false);
-    //  const {accessToken} = JSON.parse(sessionStorage.getItem('user'));
 
     const handleChange = (e) =>{
         const {name, value} = e.target;
@@ -75,7 +74,7 @@ const Login = () =>{
     }
     }
 
-    console.log(data)
+   
     
     if(sessionStorage.getItem('user') && JSON.parse(sessionStorage.getItem('user')) && loggedIn) {
 
