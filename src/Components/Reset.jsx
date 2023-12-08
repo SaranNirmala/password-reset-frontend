@@ -35,7 +35,7 @@ const Reset = () =>{
      const res= await response.json();
      console.log(res)
     if(response.status === 401){
-    //   alert("Reset validation error");
+     alert("Reset validation error");
       toast.error("Reset Validation error", {
         position: "top-right",
         autoClose: 5000,

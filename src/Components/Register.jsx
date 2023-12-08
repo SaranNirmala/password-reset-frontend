@@ -24,7 +24,6 @@ const Register =() => {
 
 const handleSubmit = async(e) =>{
     e.preventDefault();
-    
     const response= await fetch(`${backendUrl}/register`,{
         method: 'POST',
         body: JSON.stringify(register),
