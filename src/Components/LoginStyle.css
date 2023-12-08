@@ -1,0 +1,11 @@
+label{
+    padding: 10px;
+    margin: 10px;
+}
+
+input{
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+}
